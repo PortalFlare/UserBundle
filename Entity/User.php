@@ -6,10 +6,9 @@ use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
 
 /**
- * @ORM\Entity
- * @ORM\Table(name="user")
+ * @ORM\MappedSuperClass
  */
-class User extends BaseUser {
+class PortalFlareUserBase extends BaseUser {
   /**
    * @ORM\Id
    * @ORM\Column(type="integer")
