@@ -1,0 +1,24 @@
+<h1>User Profile</h1>
+<div class="fos_user_user_show">
+  <table>
+    <tr>
+      <td width="100">{{ 'profile.show.username'|trans({}, 'FOSUserBundle') }}:</td>
+      <td>{{ user.username }}</td>
+    </tr>
+    <tr>
+      <td width="100">Name:</td>
+      <td>{{ user.name }}</td>
+    </tr>
+    <tr>
+      <td>{{ 'profile.show.email'|trans({}, 'FOSUserBundle') }}:</td>
+      <td>{{ user.email }}</td>
+    </tr>
+  </table>
+</div>
+<ul class="record_actions">
+  <li>
+    <a href="{{ path('fos_user_change_password') }}">
+      Change Password
+    </a>
+  </li>
+</ul>
