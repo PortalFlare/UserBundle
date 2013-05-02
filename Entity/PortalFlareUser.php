@@ -37,24 +37,24 @@ class PortalFlareUser extends BaseUser {
   }
 
   /**
-   * Set name
+   * Set displayname
    *
-   * @param string $name
+   * @param string
    * @return User
    */
-  public function setName($name) {
-    $this->name = $name;
+  public function setDisplayName($name) {
+    $this->displayname = $name;
 
     return $this;
   }
 
   /**
-   * Get name
+   * Get displayname
    *
    * @return string
    */
-  public function getName() {
-    return $this->name;
+  public function getDisplayName() {
+    return $this->displayname;
   }
 
 }
