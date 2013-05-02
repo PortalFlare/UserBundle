@@ -8,7 +8,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 /**
  * @ORM\MappedSuperClass
  */
-class PortalFlareUserBase extends BaseUser {
+class PortalFlareUser extends BaseUser {
   /**
    * @ORM\Id
    * @ORM\Column(type="integer")
