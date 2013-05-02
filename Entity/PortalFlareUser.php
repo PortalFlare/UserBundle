@@ -17,11 +17,11 @@ class PortalFlareUser extends BaseUser {
   protected $id;
 
   /**
-   * @var string $name
+   * @var string
    *
    * @ORM\Column(nullable=true)
    */
-  protected $name;
+  protected $displayname;
 
   public function __construct() {
     parent::__construct();
