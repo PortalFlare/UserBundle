@@ -1,6 +1,6 @@
 <?php
 
-namespace PortalFlare\Bundle\UserBundle\Controller;
+namespace PortalFlare\UserBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
