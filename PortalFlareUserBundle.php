@@ -6,7 +6,4 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class PortalFlareUserBundle extends Bundle {
 
-  public function getParent() {
-    return 'PortalFlareUserBundle';
-  }
 }
